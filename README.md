@@ -29,27 +29,27 @@
 
 ### 1.場景視圖
 場景視圖用於描述系統的參與者與功能用例之間的關係，反映系統的最終需求和交互設計，通常由用例圖來表示。
-![image](https://github.com/Lanco332/staruml_1/blob/main/picture/1.jpg)
+![image](https://raw.githubusercontent.com/Lanco332/StarUML_final/refs/heads/main/picture/1.png)
 
 ### 2.邏輯視圖
 邏輯視圖用於描述系統軟體功能拆解後的組件關係、組件約束和邊界，反映系統整體組成與系統如何構建的過程，通常由 UML 的組件圖和類圖來表示。
 
-![image](https://github.com/Lanco332/staruml_1/blob/main/picture/1.jpg)
+![image](https://raw.githubusercontent.com/Lanco332/StarUML_final/refs/heads/main/picture/2.png)
 
 ### 3.物理視圖
 物理視圖用於描述系統軟體到物理硬體的映射關係，反映出系統的組件如何部署到一組可計算的機器節點上，用於指導軟體系統的部署實施過程。
 
-![image](https://github.com/Lanco332/staruml_1/blob/main/picture/1.jpg)
+![image](https://raw.githubusercontent.com/Lanco332/StarUML_final/refs/heads/main/picture/3.png)
 
 ### 4.處理流程視圖
 理流程視圖用於描述系統軟體組件之間的通信時序、數據的輸入輸出，反映系統的功能流程與數據流程，通常由時序圖和流程圖來表示。
 
-![image](https://github.com/Lanco332/staruml_1/blob/main/picture/1.jpg)
+![image](https://raw.githubusercontent.com/Lanco332/StarUML_final/refs/heads/main/picture/4.png)
 
 ### 5.開發視圖
 開發視圖用於描述系統的模組劃分和組成，以及細化到內部包的組成設計，服務於開發人員，反映系統開發實施過程。
 
-![image](https://github.com/Lanco332/staruml_1/blob/main/picture/1.jpg)
+![image](https://raw.githubusercontent.com/Lanco332/StarUML_final/refs/heads/main/picture/5.png)
 
     以上 5 種架構視圖從不同角度表示一個軟體系統的不同特徵，組合在一起作為架構藍圖來描述系統架構。
 ## 三、怎樣的架構圖是好的架構圖
@@ -75,7 +75,7 @@
 ## 案例：來自 C4 模型的示例
 ### 1.語境圖（System Context Diagram）
 
-![image](https://github.com/Lanco332/staruml_1/blob/main/picture/1.jpg)
+![image](https://raw.githubusercontent.com/Lanco332/StarUML_final/refs/heads/main/picture/11.png)
 
 這是一個想像中的互聯網銀行系統，它使用外部大型機銀行系統來存取客戶賬戶與交易信息，並通過外部電郵系統向客戶發送郵件。
 
@@ -94,7 +94,7 @@
 ### 2.容器圖（Container Diagram）
 容器圖是在語境圖的基礎上，將待建設的系統進行展開，描述系統內部的主要容器（應用程式、數據存儲等）及其相互作用。
 
-![image](https://github.com/Lanco332/staruml_1/blob/main/picture/1.jpg)
+![image](https://raw.githubusercontent.com/Lanco332/StarUML_final/refs/heads/main/picture/12.png)
 
 在圖中，除了使用者和周邊系統，待建設的系統包括以下內容：
 
@@ -130,7 +130,7 @@
 ### 3.組件圖（Component Diagram）
 組件圖將某個容器進一步展開，描述其內部的模組。
 
-![image](https://github.com/Lanco332/staruml_1/blob/main/picture/1.jpg)
+![image](https://raw.githubusercontent.com/Lanco332/StarUML_final/refs/heads/main/picture/13.png)
 
 #### 主要用途：
 
@@ -142,11 +142,12 @@
 ### 4.類圖（Code/Class Diagram）
 類圖主要針對技術人員，較為常見，本文不再詳細介紹。
 
-![image](https://github.com/Lanco332/staruml_1/blob/main/picture/1.jpg)
+![image](https://raw.githubusercontent.com/Lanco332/StarUML_final/refs/heads/main/picture/6.png)
 
 ## 六、總結
 畫好架構圖可能有許多方法論，本篇介紹的主要是 C4 模型。C4 的理論也是不斷演化的。
-
 但不論使用哪種方法論，我們回到畫圖的初衷：為了更好的溝通。在畫圖的過程中，不需要被條條框框所限制。
-
 簡而言之，畫之前想清楚：畫圖給誰看、看什麼，以及如何做到不解釋也能看懂。
+
+## 七、資料來源
+https://blog.csdn.net/u014421422/article/details/122740633

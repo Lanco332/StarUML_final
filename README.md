@@ -72,7 +72,9 @@
 
 這些圖容易繪製，並給出了畫圖的要點。但更關鍵的是，它明確指出了每種圖可能的受眾以及意義。
 
-## 案例：來自 C4 模型的示例
+繪圖軟體:StarUML
+
+## 案例：C4 模型的示例
 ### 1.語境圖（System Context Diagram）
 
 ![image](https://raw.githubusercontent.com/Lanco332/StarUML_final/refs/heads/main/picture/11.png)
